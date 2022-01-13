@@ -14,3 +14,5 @@ for one request you have the following options
 
 1. to return json response (API)
 2. to render an HTML page
+
+\_ tag means a partial
