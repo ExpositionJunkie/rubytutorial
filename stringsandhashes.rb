@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=1MjgnFafTqU&list=PLS1QulWo1RIbNBXZAeVbkkHEj9zsEbXQK&index=4
+
 a = "hello world"
 b = String.new("hello world")
 
