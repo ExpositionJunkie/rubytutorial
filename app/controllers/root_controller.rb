@@ -12,9 +12,17 @@ class RootController < ApplicationController
     end
 
     def contact
+        #redirect_to('/about')
         #puts "----------------------------"
         #puts "contact in server"
         render "contact"
+    end
+    
+    def user
+        #this will return json response of all parameters of user
+        #to find specific info displayed instead like name and id you can do this by typing the comment below
+        #render json: params[:id] or render json: params[:name]
+        render json: params
     end
     
     def api
