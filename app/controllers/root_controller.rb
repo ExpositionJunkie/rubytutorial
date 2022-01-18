@@ -20,8 +20,13 @@ class RootController < ApplicationController
     
     def user
         #this will return json response of all parameters of user
+        #render json: params
         #to find specific info displayed instead like name and id you can do this by typing the comment below
         #render json: params[:id] or render json: params[:name]
+        render json: params[:name]
+    end
+    
+    def add
         render json: params
     end
     

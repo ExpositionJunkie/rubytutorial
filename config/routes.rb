@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get '/user/:id/:name' , to: "root#user"
   get '/api', to: "root#api"
 
+  post '/add', to: "root#add"
+
   # please note that the root_controller created earlier may have been named anything and does not neccessarily need to be named that. However, below the root is a keyword.
   # also if you had any other route after like contact or about it would redirect the root there. So it would be possible to redirect this to contact or about.
   root "root#index"
